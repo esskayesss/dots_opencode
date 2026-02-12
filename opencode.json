@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "yorumi-abyss",
+  "mcp": {
+    "figma": {
+      "type": "remote",
+      "url": "http://127.0.0.1:3845/mcp",
+      "enabled": false
+    },
+    "deepwiki": {
+      "type": "remote",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "enabled": true
+    },
+    "memory": {
+      "type": "remote",
+      "url": "http://pi.thrush-dab.ts.net:8787/mcp",
+      "enabled": true
+    }
+  }
+}
