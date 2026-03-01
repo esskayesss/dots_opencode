@@ -1,6 +1,16 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "yorumi-abyss",
+  "instructions": [
+    "instructions/memory-policy.md"
+  ],
+  "permission": {
+    "memory_*": "allow",
+    "skill": {
+      "*": "allow",
+      "assistive-memory": "allow"
+    }
+  },
   "mcp": {
     "figma": {
       "type": "remote",
@@ -15,6 +25,11 @@
     "memory": {
       "type": "remote",
       "url": "http://pi.thrush-dab.ts.net:8787/mcp",
+      "enabled": true
+    },
+    "npm": {
+      "type": "remote",
+      "url": "https://mcp.packrun.dev/mcp",
       "enabled": true
     }
   }
